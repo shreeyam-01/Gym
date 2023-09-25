@@ -1,0 +1,38 @@
+.Prices-title {
+    text-align: center; /* Center text horizontally */
+    background-color: black;
+    color: white; /* Text color for the title */
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+/* Style the h1 element within trainer-title */
+.Prices-title h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style the pricing container */
+.pricing {
+    display: table; /* Use table layout */
+    width: 100%; /* Set the width to 100% */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+/* Style the pricing plan rows */
+.pricing-plan {
+    display: table-row; /* Use table row for each plan */
+}
+
+/* Style the individual cells (price and duration) */
+.price,
+.duration {
+    display: table-cell; /* Use table cell for price and duration */
+    padding: 10px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add borders to separate cells */
+    text-align: right; /* Align text to the right for price */
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+.duration {
+    text-align: left; /* Align text to the left for duration */
+}

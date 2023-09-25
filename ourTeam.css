@@ -1,0 +1,45 @@
+/* Style the trainer-title container */
+.trainer-title {
+    text-align: center; /* Center text horizontally */
+    background-color: black;
+    color: white; /* Text color for the title */
+    padding: 20px 0; /* Adjust padding as needed */
+    overflow: hidden;
+
+}
+
+/* Style the h1 element within trainer-title */
+.trainer-title h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style the container for the image row */
+.trainer-row {
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: space-between; /* Space images evenly within the row */
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 20px; /* Add spacing between trainer sections */
+}
+
+/* Style individual images */
+.image-container img {
+    max-width: 200px; /* Adjust the width as needed for individual trainer images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style trainer details */
+.trainer-info {
+    flex: 1; /* Allow trainer details to take remaining width */
+    padding: 0 10px; /* Add spacing between images and details */
+    text-align: center; /* Center text horizontally */
+    color: #333; /* Text color for trainer details */
+}
+
+p{
+    font-size: 30px;
+}
+
+
+
+
